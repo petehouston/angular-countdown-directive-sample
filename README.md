@@ -22,6 +22,10 @@ export class CountdownDirective implements OnInit {
 
 **Usage**
 
-```
-
+```angular2html
+<h1>Angular Directive in Practice</h1>
+<hr>
+<p countdown [time]="10000"></p>
+<p countdown [time]="5000" [startingText]="'Prepare to start....'"></p>
+<span countdown [time]="7500" [endingText]="'We\'re about to close in a moment'"></span>
 ```
