@@ -1,6 +1,5 @@
-# Angular Countdown Directive Sample
+import {Directive, ElementRef, Input, OnInit} from '@angular/core';
 
-```typescript
 @Directive({
   selector: '[countdown]'
 })
@@ -18,10 +17,3 @@ export class CountdownDirective implements OnInit {
     }, this.time);
   }
 }
-```
-
-**Usage**
-
-```
-
-```
